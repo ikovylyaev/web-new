@@ -1,9 +1,12 @@
 ---
 title: recyclica
+title-ru: recyclica
 layout: post
 date: '2020-11-23 20:00:00 +0500'
 categories: ui/ux
+categories-ru: ui/ux
 concept: 
+concept-ru: 
 permalink: "/design/recyclica/"
 number: "06"
 img: "06"
