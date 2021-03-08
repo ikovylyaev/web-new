@@ -20,8 +20,7 @@ layout: default
           </nav>
         <h1 class="display-2" style="text-align: right; margin-top: 20vh; font-weight: 200!important;">иван<br>ковыляев</h1>
         {% for post in site.posts limit: 1 %}
-       
-        {% if post.link == 'null' %}
+            {% if post.link == 'null' %}
                  <a href="#">
             {% else %}
              <a target="blank" href="{{post.url}}">
@@ -42,11 +41,13 @@ layout: default
             </div>
         </div>
         <div class="row" style="margin-top: 10vh;">
-            <a href="" class="col-md-6 col-sm-12">
-                <img src="img/bg/01.png" style="width: 100%;" alt="some text">
-                <h2 style="margin-top: 20px;">Название проекта</h2>
-                <p><span style="margin-right: 50px;">концепт</span><span>навигация</span></p>
+            {% for post in site.posts limit: 4 offset: 1 %}
+            <a href="{{post.url}}" class="col-md-6 col-sm-12">
+                <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
+                <h2 style="margin-top: 20px;">{{ post.title}}</h2>
+                <p><span style="margin-right: 50px;">{{ post.concept }}</span><span>{{ post.categories }}</span></p>
             </a>
+            {% endfor %}
         </div>
         <div class="row" style="margin-top: 10vh;">
             <div class="col-sm-12 col-md-5">
@@ -59,11 +60,13 @@ layout: default
             </div>
         </div>
         <div class="row" style="margin-top: 10vh;">
-            <a href="" class="col-md-6 col-sm-12">
-                <img src="img/bg/01.png" style="width: 100%;" alt="some text">
-                <h2 style="margin-top: 20px;">Название проекта</h2>
-                <p><span style="margin-right: 50px;">концепт</span><span>навигация</span></p>
+            {% for post in site.posts limit: 4 offset: 5 %}
+            <a href="{{post.url}}" class="col-md-6 col-sm-12">
+                <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
+                <h2 style="margin-top: 20px;">{{ post.title}}</h2>
+                <p><span style="margin-right: 50px;">{{ post.concept }}</span><span>{{ post.categories }}</span></p>
             </a>
+            {% endfor %}
         </div>
         <div class="row" style="margin-top: 10vh;">
             <div class="col-sm-12 col-md-5">
@@ -75,6 +78,15 @@ layout: default
                 <a href="">карта санкт-петербургского метрополитена</a><br>
                 <a href="">карта санкт-петербургского метрополитена</a><br>
             </div>
+        </div>
+        <div class="row" style="margin-top: 10vh;">
+            {% for post in site.posts offset: 9 %}
+            <a href="{{post.url}}" class="col-md-6 col-sm-12">
+                <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
+                <h2 style="margin-top: 20px;">{{ post.title}}</h2>
+                <p><span style="margin-right: 50px;">{{ post.concept }}</span><span>{{ post.categories }}</span></p>
+            </a>
+            {% endfor %}
         </div>
         <div class="row" style="margin-top: 10vh;">
             <div class="col-sm-12 col-md-5">
@@ -98,10 +110,4 @@ layout: default
             </div>
         </div>
     </div>
-    <script src="resources/js/jquery.js"></script>
-
     
-    <script src="resources/js/bootstrap.min.js"></script>
-
-</body>
-</html>
