@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 /*
 font-family: 'IBM Plex Mono', monospace;
 font-family: 'IBM Plex Sans', sans-serif;
@@ -7,98 +7,26 @@ font-family: 'IBM Plex Sans', sans-serif;
 @media (max-width: 550px) {
     body{
         padding: 25px;
-        background: #000;
-        color: #fff;
-    }
-    .top-line .is-col .hello{
-        margin-right: 100px;
-        width: 100%;
-        max-width: 100%;
+        background: #fff;
+        color: #000;
+        font-weight: 200!important;
     }
 }
 @media (min-width: 551px) {
     body{
         padding: 50px;
-        background: #000;
-        color: #fff;
+        background: #fff;
+        color: #000;
+        font-weight: 200!important;
     }
-}
-
-@media (max-width: 767px){
-    .post-cont{
-        margin-left: 0px; 
-    }
-}
-@media (min-width: 768px){
-    .post-cont{
-        margin-left: -24px; 
-    }
-}
-
-.links-nav{
-    font-size: 30px;
-}
-.links-nav b{
-    padding-right: 50px;
-}
-.links-nav a{
-    color: #ddd;
-    text-decoration: none;
-    transition: 0.3s;
-    padding-right: 50px;
-}
-.links-nav a:hover{
-    color: #fff;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.post{
-    font-size: 30px;
     
 }
-.post .is-col{
-    margin-left: 0px!important;
-}
-.post p{
-    padding: 0px;
-    margin: 0px;
-}
-.post a{
-    color: #fff;
-    text-decoration: none;
-}
-.post a:hover{
-    color: #fff;
-    text-decoration: none;
-}
-.bg-post{
-    z-index: -2;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-}
-.bg-all{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    background: rgba(0,0,0,0.4);
-    content: "";
-}
-.contact{
-    font-size: 30px;
-}
-.contact a{
-    color: #fff;
-    text-decoration: none;
-}
-.contact a:hover{
-    color: #fff;
-    text-decoration: none;
+.header-image{
+    width: 100%;
+    height: 80vh;
+    margin-top: 100px
+}  
+a{
+    color: #000!important;
+    text-decoration: none!important;
 }
