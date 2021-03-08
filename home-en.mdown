@@ -4,7 +4,7 @@ permalink: "/en/"
 ---
 <div class="container-fluid">
        <nav class="navbar navbar-expand navbar-light">
-            <div class="navbar-brand"><img src="img/logo.svg" style="height: 100%; max-height: 40px; max-width: 20vw;"></div>
+            <div class="navbar-brand"><img src="{{site.url}}/img/logo.svg" style="height: 100%; max-height: 40px; max-width: 20vw;"></div>
         
               <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="navbar-nav me-auto" style="position: absolute; right: 0px;;">
