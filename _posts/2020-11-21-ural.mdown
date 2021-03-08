@@ -1,9 +1,12 @@
 ---
 title: nature expedition
+title-ru: натуральный поход
 layout: post
 date: '2020-11-21 20:00:00 +0500'
 categories: brand
+categories-ru: бренд
 concept: 
+concept-ru
 permalink: "/design/natureexp/"
 number: "08"
 img: "08"
