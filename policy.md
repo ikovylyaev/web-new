@@ -2,7 +2,7 @@
 title: privacy policy
 layout: page
 lang: en
-permalink: "/privacy/"
+permalink: "/en/privacy/"
 ---
 <style>p{width: 100%;}</style>
 <h1 class="disply-4 mb-3">{{ page.title }}</h1>
