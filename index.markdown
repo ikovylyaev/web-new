@@ -103,7 +103,7 @@ layout: default
         </div>
         <div class="row" style="margin-top: 10vh;">
             <div class="col-sm-12 col-md-5">
-                <h2 class="h1">правовоя информация</h2>
+                <h2 class="h1">правовая информация</h2>
             </div>
             <div class="col-sm-11 offset-sm-1 col-md-7 offset-md-0 mt-3">
                 <p><a href="{{ site.url }}/privacy/" style="margin-right: 25px">политика конфиденциальности</a><a style="opacity: 0.5; margin-right: 25px" href="{{ site.url }}/en/privacy/">privacy policy</a></p>
