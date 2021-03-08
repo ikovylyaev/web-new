@@ -7,16 +7,16 @@ font-family: 'IBM Plex Sans', sans-serif;
 @media (max-width: 550px) {
     body{
         padding: 25px;
-        background: #fff;
-        color: #000;
+        background: #fff!important;
+        color: #000!important;
         font-weight: 200!important;
     }
 }
 @media (min-width: 551px) {
     body{
         padding: 50px;
-        background: #fff;
-        color: #000;
+        background: #fff!important;
+        color: #000!important;
         font-weight: 200!important;
     }
     
