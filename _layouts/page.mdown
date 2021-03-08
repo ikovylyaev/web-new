@@ -1,84 +1,26 @@
 ---
 layout: default
 ---
-<div class='is-row' style='border-bottom: 4px solid #fff; padding-bottom: 25px; z-index: 100;'>
-    <div class='is-col' style='margin-left: 0px!important;'>
-        <img src='{{ site.url }}/img/logo.svg' alt='kovylyaevdesign logo' style='height: 40px;'>
+<div class="container-fluid">
+    
+    <nav class="navbar navbar-expand navbar-light">
+        <div class="navbar-brand"><img src="img/logo.svg" style="height: 100%; max-height: 40px; max-width: 20vw;"></div>
+    
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav me-auto" style="position: absolute; right: 0px;;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{site.url}}">ru</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.url}}/en">en</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    <h1 class="display-2" style="text-align: right; margin-top: 20vh; font-weight: 200!important;">иван<br>ковыляев</h1>
+    <div class='row'>
+    <div class='col-12'>
+    {{content}}
     </div>
-    <div class='is-col is-container is-items-middle links-nav' style='text-align: right!important;'>
-        <a href='http://ikovylyaev.com'>design</a>
-        <a href='http://video.ikovylyaev.com'>video and photo</a>
-        <a href='http://nature.ikovylyaev.com'>ural</a>
     </div>
-</div>
-<div class='is-row top-line' style='border-bottom: 4px solid #fff; z-index: 100;'>
-    <div class='is-col' style='margin: 0px; padding: 25px 0;'>
-        <img src='{{ site.url }}/img/policy.svg' alt='kovylyaevdesign website - policy' class='policy' style='max-width: 100%;'>
-    </div>
-</div>
-<div class='is-row top-line' style='border-bottom: 4px solid #fff; z-index: 100;'>
-{{content}}
-</div>
-
-
-<div class='is-row contact' style='z-index: 100; margin-top: 25px;'>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-        <b>contact</b>
-    </div>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-        <p style='margin: 0px;'>hi@ikovylyaev.com</p>
-    </div>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-    </div>
-</div>
-<div class='is-row contact' style='z-index: 100;'>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-        <b>behance</b>
-    </div>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-        <a href='https://behance.net/ikovylyaev' target='_blank'>ikovylyaev</a>
-    </div>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-    </div>
-</div>
-<div class='is-row contact' style='z-index: 100;'>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-    </div>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-        <b>vk</b>
-    </div>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-        <a href='https://vk.com/ikovylyaev' target='_blank'>ikovylyaev</a>
-    </div>
-</div>
-<div class='is-row contact' style='z-index: 100;'>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-    </div>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-        <b>instagram</b>
-    </div>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-        <a href='https://instagram.com/ikovylyaev' target='_blank'>ikovylyaev</a>
-    </div>
-</div>
-<div class='is-row contact' style='z-index: 100; margin-bottom: 25px;'>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-    </div>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-        <b>youtube</b>
-    </div>
-    <div class='is-col is-33' style='margin-left: 0px!important;'>
-        <a href='https://www.youtube.com/channel/UCf9GOVc0qKKPB-Ee3LfH_uw' target='_blank'>ikovylyaev</a>
-    </div>
-</div>
-<div class='is-row contact' style='z-index: 100; padding-top: 75px; border-top: 4px solid #fff;'>
-    <div class='is-col' style='margin-left: 0px!important;'>
-        <b>ikovylyaev.com</b>
-        <small><a href='{{ site.url }}/privacy' style='margin-left: 50px;'>privacy</a></small>
-    </div>
-    <div class='is-col' style='margin-left: 0px!important; text-align: right;'>
-        <a href='http://ikovylyaev.com/privacy'>design</a>
-        <a href='http://video.ikovylyaev.com' style='margin-left: 50px;'>video and video</a>
-        <a href='http://nature.ikovylyaev.com' style='margin-left: 50px;'>ural</a>
-    </div>
-</div>
+    
