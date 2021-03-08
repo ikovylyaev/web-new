@@ -1,11 +1,14 @@
 ---
 title: petersburg subway
+title-ru: петеруборгский метрополитен
 layout: post
 date: '2021-03-07 20:00:00 +0500'
 categories: navigation
+categories-ru: навигация
 concept: concept
+concept-ru: концепт
 permalink: "/design/subway/"
-number: "01"
+number: "09"
 img: "09"
 year: 2021
 link: "https://www.behance.net/gallery/114945397/concept-of-the-logo-and-navigation-of-petersburg-subway"
