@@ -31,7 +31,7 @@ layout: default
             <p>
                 {% if post.concept == 'concept' %}
                  <span style="margin-right: 50px;">концепт</span>
-                {% else %}
+                {% endif %}
                 <span>{{ post.categories-ru }}</span>
             </p>
         </a>
@@ -53,7 +53,7 @@ layout: default
                 <p>
                 {% if post.concept == 'concept' %}
                  <span style="margin-right: 50px;">концепт</span>
-                {% else %}
+                {% endif %}
                 <span>{{ post.categories-ru }}</span>
             </p>
             </a>
@@ -77,7 +77,7 @@ layout: default
                 <p>
                 {% if post.concept == 'concept' %}
                  <span style="margin-right: 50px;">концепт</span>
-                {% else %}
+                {% endif %}
                 <span>{{ post.categories-ru }}</span>
             </p>
             </a>
@@ -91,7 +91,7 @@ layout: default
                 <p>
                 {% if post.concept == 'concept' %}
                  <span style="margin-right: 50px;">концепт</span>
-                {% else %}
+                {% endif %}
                 <span>{{ post.categories-ru }}</span>
             </p>
             </a>
