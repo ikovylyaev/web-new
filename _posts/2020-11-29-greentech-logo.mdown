@@ -1,6 +1,6 @@
 ---
 title: greentech
-title факультет энергетики и экотехнологий
+title-ru: факультет энергетики и экотехнологий
 layout: post
 date: '2020-11-29 20:00:00 +0500'
 categories: brand
