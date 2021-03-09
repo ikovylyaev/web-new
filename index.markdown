@@ -21,7 +21,7 @@ layout: default
             {% if post.link == 'null' %}
                 <a href="#">
             {% else %}
-                <a target="blank" href="{{post.url}}">
+                <a target="blank" href="{{post.link}}">
             {% endif %}
             <div class="header-image" style="background: url({{site.url}}/img/bg/{{post.img}}.webp); background-size: cover; background-position: center;">
             </div>
@@ -45,7 +45,7 @@ layout: default
         </div>
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts limit: 4 offset: 1 %}
-            <a href="{{post.url}}" class="col-md-6 col-sm-12">
+            <a href="{{post.link}}" class="col-md-6 col-sm-12">
                 <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
                 <h2 style="margin-top: 20px;">{{ post.title-ru }}</h2>
                 <p>
@@ -68,7 +68,7 @@ layout: default
         </div>
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts offset: 5 %}
-            <a href="{{post.url}}" class="col-md-6 col-sm-12">
+            <a href="{{post.link}}" class="col-md-6 col-sm-12">
                 <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
                 <h2 style="margin-top: 20px;">{{ post.title-ru }}</h2>
                 <p>
