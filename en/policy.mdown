@@ -1,11 +1,9 @@
 ---
-title: privacy policy
 layout: page
-lang: en
-permalink: "/en/privacy/"
+permalink: /en/privacy/
 ---
 <style>p{width: 100%;}</style>
-<h1 class="disply-4 mb-3">{{ page.title }}</h1>
+<h1 class="disply-4 mb-3">privacy policy</h1>
 At ikovylyaev, accessible from ikovylyaev.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by ikovylyaev and how we use it.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
