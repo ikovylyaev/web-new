@@ -5,7 +5,6 @@ description: >-
   
 baseurl: ""
 url: "https://new.ikovylyaev.com"
-include: ['_pages']
 
 theme: minima
 plugins:
