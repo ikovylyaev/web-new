@@ -107,9 +107,9 @@ permalink: /en/
                 <h2 class="h1">legal information</h2>
             </div>
             <div class="col-sm-11 offset-sm-1 col-md-7 offset-md-0 mt-3">
-                <p><a href="{{ site.url }}/privacy/" style="opacity: 0.5; margin-right: 25px">политика конфиденциальности</a><a style="margin-right: 25px" href="{{ site.url }}/en/privacy/">privacy policy</a></p>
-                <p><a href="{{ site.url }}/terms/" style="opacity: 0.5; margin-right: 25px">правила использования</a><a style="margin-right: 25px" href="{{ site.url }}/en/terms/">terms of use</a></p>
-                <p><a href="{{ site.url }}/domain/" style="opacity: 0.5; margin-right: 25px">информация о домене</a><a style="margin-right: 25px" href="{{ site.url }}/en/domain/">domain info</a></p>
+                <p><a style="margin-right: 25px" href="{{ site.url }}/privacy/">privacy policy</a></p>
+                <p><a style="margin-right: 25px" href="{{ site.url }}/terms/">terms of use</a></p>
+                <p><a style="margin-right: 25px" href="{{ site.url }}/domain/">domain info</a></p>
             </div>
         </div>
     </div>
