@@ -99,7 +99,8 @@ permalink: /en/
                 <p><span style="opacity: 0.5; margin-right: 25px">mail</span><a href="mailto:hi@ikovylyaev.com">hi@ikovylyaev.com</a></p>
                 <p><span style="opacity: 0.5; margin-right: 25px">behance</span><a href="https://behance.net/ikovylyaev">ikovylyaev</a></p>
                 <p><span style="opacity: 0.5; margin-right: 25px">vk</span><a href="https://vk.com/ikovylyaev">ikovylyaev</a></p>
-                <p><span style="opacity: 0.5; margin-right: 25px">instagram</span><a href="https://www.youtube.com/channel/UCf9GOVc0qKKPB-Ee3LfH_uw">иван ковыляев</a></p>
+                <p><span style="opacity: 0.5; margin-right: 25px">instagram</span><a href="https://instagram.com/ikovylyaev">ikovylyaev</a></p>
+                <p><span style="opacity: 0.5; margin-right: 25px">youtube</span><a href="https://www.youtube.com/channel/UCf9GOVc0qKKPB-Ee3LfH_uw">ivan kovylyaev</a></p>
             </div>
         </div>
         <div class="row" style="margin-top: 10vh;">
