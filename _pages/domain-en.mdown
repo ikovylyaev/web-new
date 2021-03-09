@@ -1,0 +1,5 @@
+---
+layout: page
+permalink: /en/domain/
+---
+<h1 class="disply-4 mb-3">domain infp</h1>
