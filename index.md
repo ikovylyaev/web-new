@@ -45,7 +45,11 @@ layout: default
         </div>
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts limit: 4 offset: 1 %}
-            <a href="{{post.link}}" class="col-md-6 col-sm-12">
+            {% if post.link == 'null' %}
+                <p class="col-md-6 col-sm-12">
+            {% else %}
+                <a href="{{post.link}}" target="blank" class="col-md-6 col-sm-12">
+            {% endif %}
                 <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
                 <h2 style="margin-top: 20px;">{{ post.title-ru }}</h2>
                 <p>
@@ -54,7 +58,11 @@ layout: default
                 {% endif %}
                 <span>{{ post.categories-ru }}</span>
             </p>
-            </a>
+            {% if post.link == 'null' %}
+                </p>
+            {% else %}
+                </a>
+            {% endif %}
             {% endfor %}
         </div>
         <div class="row" style="margin-top: 10vh;">
@@ -68,7 +76,11 @@ layout: default
         </div>
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts offset: 5 %}
-            <a href="{{post.link}}" class="col-md-6 col-sm-12">
+            {% if post.link == 'null' %}
+                <p class="col-md-6 col-sm-12">
+            {% else %}
+                <a href="{{post.link}}" target="blank" class="col-md-6 col-sm-12">
+            {% endif %}
                 <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
                 <h2 style="margin-top: 20px;">{{ post.title-ru }}</h2>
                 <p>
@@ -77,7 +89,11 @@ layout: default
                 {% endif %}
                 <span>{{ post.categories-ru }}</span>
             </p>
-            </a>
+            {% if post.link == 'null' %}
+                </p>
+            {% else %}
+                </a>
+            {% endif %}
             {% endfor %}
         </div>
         <div class="row" style="margin-top: 10vh;">
