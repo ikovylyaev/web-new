@@ -46,7 +46,11 @@ permalink: /en/
         </div>
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts limit: 4 offset: 1 %}
-            <a href="{{post.url}}" class="col-md-6 col-sm-12">
+            {% if post.link == 'null' %}
+                <p class="col-md-6 col-sm-12">
+            {% else %}
+                <a href="{{post.link}}" target="blank" class="col-md-6 col-sm-12">
+            {% endif %}
                 <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
                 <h2 style="margin-top: 20px;">{{ post.title }}</h2>
                 <p>
@@ -55,7 +59,11 @@ permalink: /en/
                 {% endif %}
                 <span>{{ post.categories }}</span>
             </p>
-            </a>
+            {% if post.link == 'null' %}
+                </p>
+            {% else %}
+                </a>
+            {% endif %}
             {% endfor %}
         </div>
         <div class="row" style="margin-top: 10vh;">
@@ -69,7 +77,11 @@ permalink: /en/
         </div>
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts offset: 5 %}
-            <a href="{{post.url}}" class="col-md-6 col-sm-12">
+            {% if post.link == 'null' %}
+                <p class="col-md-6 col-sm-12">
+            {% else %}
+                <a href="{{post.link}}" target="blank" class="col-md-6 col-sm-12">
+            {% endif %}
                 <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
                 <h2 style="margin-top: 20px;">{{ post.title }}</h2>
                 <p>
@@ -78,7 +90,11 @@ permalink: /en/
                 {% endif %}
                 <span>{{ post.categories }}</span>
             </p>
-            </a>
+            {% if post.link == 'null' %}
+                </p>
+            {% else %}
+                </a>
+            {% endif %}
             {% endfor %}
         </div>
         <div class="row" style="margin-top: 10vh;">
