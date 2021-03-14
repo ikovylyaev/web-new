@@ -47,7 +47,7 @@ permalink: /en/
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts limit: 4 offset: 1 %}
             {% if post.link == 'null' %}
-                <p class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-12">
             {% else %}
                 <a href="{{post.link}}" target="blank" class="col-md-6 col-sm-12">
             {% endif %}
@@ -60,7 +60,7 @@ permalink: /en/
                 <span>{{ post.categories }}</span>
             </p>
             {% if post.link == 'null' %}
-                </p>
+                </div>
             {% else %}
                 </a>
             {% endif %}
@@ -78,7 +78,7 @@ permalink: /en/
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts offset: 5 %}
             {% if post.link == 'null' %}
-                <p class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-12">
             {% else %}
                 <a href="{{post.link}}" target="blank" class="col-md-6 col-sm-12">
             {% endif %}
@@ -91,7 +91,7 @@ permalink: /en/
                 <span>{{ post.categories }}</span>
             </p>
             {% if post.link == 'null' %}
-                </p>
+                </div>
             {% else %}
                 </a>
             {% endif %}
