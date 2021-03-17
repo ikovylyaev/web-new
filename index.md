@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="container-fluid">
     <nav class="navbar navbar-expand navbar-light">
-            <div class="navbar-brand"><img src="img/logo.svg" style="height: 100%; max-height: 40px; max-width: 20vw;"></div>
+            <div class="navbar-brand"><img src="img/logo.svg" style="height: 100%; max-height: 40px; max-width: 20vw;" alt="ikovylyaev-logo"></div>
         
               <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="navbar-nav me-auto" style="position: absolute; right: 0px;;">
@@ -23,7 +23,7 @@ layout: default
             {% else %}
                 <a target="blank" href="{{post.link}}">
             {% endif %}
-            <div class="header-image" style="background: url({{site.url}}/img/bg/{{post.img}}.webp); background-size: cover; background-position: center;">
+            <div class="header-image" style="background: url({{site.url}}/img/favi/{{post.img}}.webp); background-size: cover; background-position: center;">
             </div>
             <h2 class="display-4" style="margin-top: 20px;">{{ post.title-ru }}</h2>
             <p>
@@ -50,7 +50,7 @@ layout: default
             {% else %}
                 <a href="{{post.link}}" target="blank" class="col-md-6 col-sm-12">
             {% endif %}
-                <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
+                <img src="{{site.url}}/img/favi/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
                 <h2 style="margin-top: 20px;">{{ post.title-ru }}</h2>
                 <p>
                 {% if post.concept == 'concept' %}
@@ -81,7 +81,7 @@ layout: default
             {% else %}
                 <a href="{{post.link}}" target="blank" class="col-md-6 col-sm-12">
             {% endif %}
-                <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
+                <img src="{{site.url}}/img/favi/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
                 <h2 style="margin-top: 20px;">{{ post.title-ru }}</h2>
                 <p>
                 {% if post.concept == 'concept' %}
