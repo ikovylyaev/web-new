@@ -3,7 +3,8 @@ title: hawk mobile
 title-ru: hawk mobile
 layout: post
 date: '2020-11-25 20:00:00 +0500'
-categories: ux/ui design
+type: design
+categories: ux/ui 
 categories-ru: ux/ui
 concept: concept
 concept-ru: концепт
