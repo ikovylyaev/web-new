@@ -3,7 +3,7 @@ title: infolab
 title-ru: инфолаб
 layout: post
 date: '2020-11-24 20:00:00 +0500'
-categories: ui/ux
+categories: ui/ux design
 categories-ru: ui/ux
 concept: concept
 concept-ru: концепт
