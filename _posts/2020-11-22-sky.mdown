@@ -3,7 +3,8 @@ title: sky monitor
 title-ru: sky monitor
 layout: post
 date: '2020-11-22 20:00:00 +0500'
-categories: ui/ux design
+type: design
+categories: ui/ux
 categories-ru: ui/ux
 concept: concept
 concept-ru: концепт
