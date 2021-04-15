@@ -19,7 +19,7 @@ layout: default
       </nav>
     <h1 class="display-2" style="text-align: left; margin-top: 20vh; font-weight: 200!important;">{{ page.title }}</h1>
     <p> {{ page.date | date_to_long_string }} / {{ page.categories }} </p>
-    {{content}}
+    <div class="post">{{content}}</div>
     <style>
         .post img{
         object-fit: contain;
