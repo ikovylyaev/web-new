@@ -18,6 +18,7 @@ layout: default
           </nav>
         <h1 class="display-2" style="text-align: right; margin-top: 20vh; font-weight: 200!important;">иван<br>ковыляев</h1>
         {% for post in site.posts limit: 1 %}
+        {% if post.type == 'design' %}
             {% if post.link == 'null' %}
                 <a href="#">
             {% else %}
@@ -33,6 +34,7 @@ layout: default
                 <span>{{ post.categories-ru }}</span>
             </p>
         </a>
+        {%endif%}
         {% endfor %}
         <div class="row" style="margin-top: 10vh;">
             <div class="col-sm-12 col-md-5">
@@ -45,6 +47,7 @@ layout: default
         </div>
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts limit: 4 offset: 1 %}
+            {% if post.type == 'design' %}
             {% if post.link == 'null' %}
                 <div class="col-md-6 col-sm-12">
             {% else %}
@@ -63,6 +66,7 @@ layout: default
             {% else %}
                 </a>
             {% endif %}
+            {%endif%}
             {% endfor %}
         </div>
         <div class="row" style="margin-top: 10vh;">
@@ -76,6 +80,7 @@ layout: default
         </div>
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts offset: 5 %}
+            {% if post.type == 'design' %}
             {% if post.link == 'null' %}
                 <div class="col-md-6 col-sm-12">
             {% else %}
@@ -94,6 +99,7 @@ layout: default
             {% else %}
                 </a>
             {% endif %}
+            {%endif%}
             {% endfor %}
         </div>
         <div class="row" style="margin-top: 10vh;">
