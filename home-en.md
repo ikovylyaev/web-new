@@ -19,6 +19,7 @@ permalink: /en/
           </nav>
         <h1 class="display-2" style="text-align: right; margin-top: 20vh; font-weight: 200!important;">ivan<br>kovylyaev</h1>
         {% for post in site.posts limit: 1 %}
+            {% if post.type contains design %}
             {% if post.link == 'null' %}
                 <a href="#">
             {% else %}
@@ -34,6 +35,7 @@ permalink: /en/
                 <span>{{ post.categories }}</span>
             </p>
         </a>
+        {%endif%}
         {% endfor %}
         <div class="row" style="margin-top: 10vh;">
             <div class="col-sm-12 col-md-5">
