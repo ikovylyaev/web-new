@@ -109,8 +109,8 @@ layout: default
                 <p>блог о дизайне и не только</p>
             </div>
             <div class="col-sm-11 offset-sm-1 col-md-7 offset-md-0 mt-3">
-                {% for post in site.posts offset: 9 %}
-                    {% if post.type == 'design' %}
+                {% for post in site.posts %}
+                    {% if post.type == 'blog' %}
                         <a href="{{ post.url }}">{{ post.title }}</a><br>
                     {% endif %}
                 {% endfor %}
