@@ -17,7 +17,7 @@ layout: default
             </ul>
           </div>
       </nav>
-    <a class='btn btn-outline-dark btn-small' href="{{site.url}}" style="margin-top: 20vh; ">назад</a>
+    <a class="badge rounded-pill bg-dark" style="text-decoration: none; color: #fff; font-weight: 200;margin-top: 20vh;" href="{{site.url}}">назад</a>
     <h1 class="display-2" style="text-align: left; font-weight: 200!important;">{{ page.title }}</h1>
     <p> {{ page.date | date_to_long_string }} / {{ page.categories }} </p>
     <div class="post">{{content}}</div>
