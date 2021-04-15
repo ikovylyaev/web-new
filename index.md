@@ -79,7 +79,7 @@ layout: default
             </div>
         </div>
         <div class="row" style="margin-top: 10vh;">
-            {% for post in site.posts offset: 5 %}
+            {% for post in site.posts offset: 5 limit: 4 %}
             {% if post.type == 'design' %}
             {% if post.link == 'null' %}
                 <div class="col-md-6 col-sm-12">
@@ -102,6 +102,45 @@ layout: default
             {%endif%}
             {% endfor %}
         </div>
+        
+        <div class="row" style="margin-top: 10vh;">
+            <div class="col-sm-12 col-md-5">
+                <h2 class="display-4">тупичок эволюции</h2>
+                <p>блог о дизайне и не только</p>
+            </div>
+            <div class="col-sm-11 offset-sm-1 col-md-7 offset-md-0 mt-3">
+                {% for post in site.posts offset: 9 %}
+                    {% if post.type == 'design' %}
+                        <a href="{{ post.url }}">{{ post.title }}</a><br>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10vh;">
+            {% for post in site.posts offset: 9 %}
+            {% if post.type == 'design' %}
+            {% if post.link == 'null' %}
+                <div class="col-md-6 col-sm-12">
+            {% else %}
+                <a href="{{post.link}}" target="blank" class="col-md-6 col-sm-12">
+            {% endif %}
+                <img src="{{site.url}}/img/bg/{{post.img}}.webp" style="width: 100%;" alt="{{post.title}}">
+                <h2 style="margin-top: 20px;">{{ post.title-ru }}</h2>
+                <p>
+                {% if post.concept == 'concept' %}
+                 <span style="margin-right: 50px;">концепт</span>
+                {% endif %}
+                <span>{{ post.categories-ru }}</span>
+            </p>
+            {% if post.link == 'null' %}
+                </div>
+            {% else %}
+                </a>
+            {% endif %}
+            {%endif%}
+            {% endfor %}
+        </div>
+        
         <div class="row" style="margin-top: 10vh;">
             <div class="col-sm-12 col-md-5">
                 <h2 class="display-4">другие проекты</h2>
@@ -109,7 +148,6 @@ layout: default
             <div class="col-sm-11 offset-sm-1 col-md-7 offset-md-0 mt-3">
                 <p><a href="http://video.ikovylyaev.com">фото и видео</a></p>
                 <p><a href="http://nature.ikovylyaev.com">урал</a></p>
-                <p><a href="http://blog.ikovylyaev.com">блог</a></p>
             </div>
         </div>
         <div class="row" style="margin-top: 10vh;">
