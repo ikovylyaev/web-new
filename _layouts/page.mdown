@@ -30,7 +30,6 @@ layout: default
             <div class="col-sm-11 offset-sm-1 col-md-7 offset-md-0 mt-3">
                 <p><a href="http://video.ikovylyaev.com">фото и видео</a></p>
                 <p><a href="http://nature.ikovylyaev.com">урал</a></p>
-                <p><a href="http://blog.ikovylyaev.com">блог</a></p>
             </div>
         </div>
         <div class="row" style="margin-top: 10vh;">
