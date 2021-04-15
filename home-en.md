@@ -48,6 +48,7 @@ permalink: /en/
         </div>
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts limit: 4 offset: 1 %}
+            {% if post.type == 'design' %}
             {% if post.link == 'null' %}
                 <div class="col-md-6 col-sm-12">
             {% else %}
@@ -66,6 +67,7 @@ permalink: /en/
             {% else %}
                 </a>
             {% endif %}
+            {%endif%}
             {% endfor %}
         </div>
         <div class="row" style="margin-top: 10vh;">
@@ -79,6 +81,7 @@ permalink: /en/
         </div>
         <div class="row" style="margin-top: 10vh;">
             {% for post in site.posts offset: 5 %}
+            {% if post.type == 'design' %}
             {% if post.link == 'null' %}
                 <div class="col-md-6 col-sm-12">
             {% else %}
@@ -97,6 +100,7 @@ permalink: /en/
             {% else %}
                 </a>
             {% endif %}
+            {%endif%}
             {% endfor %}
         </div>
         <div class="row" style="margin-top: 10vh;">
