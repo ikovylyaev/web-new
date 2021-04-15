@@ -17,8 +17,19 @@ layout: default
             </ul>
           </div>
       </nav>
-    <h1 class="display-2" style="text-align: right; margin-top: 20vh; font-weight: 200!important;">иван<br>ковыляев</h1>
+    <h1 class="display-2" style="text-align: left; margin-top: 20vh; font-weight: 200!important;">{{ page.title }}</h1>
+    <p> {{ page.date | date_to_long_string }} / {{ page.categories }} </p>
     {{content}}
+    <style>
+        .post img{
+        object-fit: contain;
+        width: 100%;
+        height: 70vh;
+        background: #eee;
+        padding: 25px 0;
+        margin: 25px 0;
+        }
+    </style>
     <div class="row" style="margin-top: 10vh;">
             <div class="col-sm-12 col-md-5">
                 <h2 class="display-4">другие проекты</h2>
@@ -26,7 +37,6 @@ layout: default
             <div class="col-sm-11 offset-sm-1 col-md-7 offset-md-0 mt-3">
                 <p><a href="http://video.ikovylyaev.com">фото и видео</a></p>
                 <p><a href="http://nature.ikovylyaev.com">урал</a></p>
-                <p><a href="http://blog.ikovylyaev.com">блог</a></p>
             </div>
         </div>
         <div class="row" style="margin-top: 10vh;">
