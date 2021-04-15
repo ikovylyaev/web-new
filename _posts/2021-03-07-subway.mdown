@@ -3,6 +3,7 @@ title: petersburg subway
 title-ru: петербургский метрополитен
 layout: post
 date: '2021-03-07 20:00:00 +0500'
+type: design
 categories: navigation
 categories-ru: навигация
 concept: concept
