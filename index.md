@@ -42,7 +42,9 @@ layout: default
             </div>
             <div class="col-sm-11 offset-sm-1 col-md-7 offset-md-0 mt-3">
                 <p>я - иван ковыляев. дизайнер-фрилансер родом из екатеринбурга, но живущий в санкт-петербурге. специализируюсь на графическом и ui/ux дизайне. текущий проект - факультет энгергетики и экотехнологий университета итмо, санкт-петербург</p>
+                <a href="https://disk.yandex.ru/i/N0AnN-6GTr-ttQ">презентация</a>
                 <a href="http://2020.report.ikovylyaev.com">отчет 2020</a>
+           
             </div>
         </div>
         <div class="row" style="margin-top: 10vh;">
