@@ -42,7 +42,7 @@ permalink: /en/
                 <h2 class="display-4">about</h2>
             </div>
             <div class="col-sm-11 offset-sm-1 col-md-7 offset-md-0 mt-3">
-                <p>i am ivan kovylyaev. freelance ui/ux and graphic designer from saint-petersburg, russia. currently working on greentech faculty of itmo university. if you want to work with me, please contact me by one of the links below.</p>
+                <p>i am ivan kovylyaev. freelance ui/ux and graphic designer from saint-petersburg, russia. if you want to work with me, please contact me by one of the links below.</p>
                 <a href="https://disk.yandex.ru/i/N0AnN-6GTr-ttQ" style='margin-right: 50px;'>presentation</a>
             </div>
         </div>
